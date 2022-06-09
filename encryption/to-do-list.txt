@@ -1,0 +1,8 @@
+programın sadece ascii ile değil türkçe karakterler ile çalışmasını sağla
+
+c de file manangment öğren tipleri ve sayıları bir txt dosyasında sakla ve ordan çek her program çalıştırıldığında aynı
+kalsınlar bir kere çalıştırıp depola oraya sonra ordan int olarak çekip kullan
+
+
+
+
