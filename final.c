@@ -8,24 +8,23 @@ int main(){
 
 FILE *fp;
 
-//hadi hadi
-setlocale(LC_ALL, "Turkish");
-srand((unsigned)time(NULL)*127);
+setlocale(LC_ALL, "Turkish");//türkçe karakterleri kullanmak için ekledim ama işe yaramadı galiba
+srand((unsigned)time(NULL)*127);//rand() ın rastgeleliğini artırmak için
 
 //string kısmı
 char str[10000];
     printf("metini girinizi\n");
-    fgets(str,10000,stdin);
+    fgets(str,10000,stdin);//std girişten string alıyon
 int len=strlen(str);
 
 int sayi[10][128];
 
 //file kısmı
-fp=fopen("config.txt","r");
+fp=fopen("config.txt","r");//config.txt iyi okumak amaçlı açıyor
 
     for(int i=0;i<10;i++){
         for(int j=0;j<128;j++){
-            fscanf(fp,"%d\n",&sayi[i][j]);
+            fscanf(fp,"%d\n",&sayi[i][j]);//içindeki bilgileri okuyup atıyor
         }
     }
 
@@ -45,6 +44,8 @@ int r=rand()%10;
             }
         }
     }
+    
+    //config teki sayıları atamak için test dosyasındaki kodlardan birini kullandım belki işine yarar
 
 
 }
