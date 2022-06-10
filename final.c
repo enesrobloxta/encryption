@@ -33,7 +33,8 @@ fclose(fp);
 
 int r=rand()%10;
 //tipi belirtecek
-
+    
+    printf("%d234\n",r);
     //bu döngü sadece ascii cahrlarıyla çalışıyor
     for(int i=0;i<=len;i++){
         for(int j=0;j<=127;j++){
