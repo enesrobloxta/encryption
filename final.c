@@ -45,7 +45,7 @@ int r=rand()%10;
         }
     }
     
-    //config teki sayıları atamak için test dosyasındaki kodlardan birini kullandım belki işine yarar
+    //config teki sayıları atamak için test dosyasındaki demo yu kullandım belki işine yarar
 
 
 }
